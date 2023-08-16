@@ -1,4 +1,4 @@
 - never make your body as root for react to render inside. causes bugs in production.
 - error - app.js not found, **Remove script from index.html**
 - reference error: react not found **use provide plugin to import react in every file**
-- 
+- while setting up eslint, remove crlf error for js files due to prettier con fig conflicting with eslint. [solution - https://bobbyhadz.com/blog/eslint-delete-cr-prettier]

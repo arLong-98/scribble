@@ -1,0 +1,26 @@
+- set up index.html
+- pnpm init
+- add react and react-dom/client
+- add folder structure
+  - root
+    - node_modules
+    - public
+    - src
+      - components
+      - containers
+      - utils
+      - app.js
+    - .gitignore
+    - index.html
+    - package.json
+    - lock file
+    - readme
+- Add webpack
+  - pnpm add -D webpack webpack-cli
+  - add private:true in package.json
+  - https://medium.com/age-of-awareness/setup-react-with-webpack-and-babel-5114a14a47e9
+  - Add a provide plugin to avoid importing react everywhere https://medium.com/react-weekly/never-import-react-from-react-again-thanks-to-webpack-s-provideplugin-69e7feb69e
+- Add nvmrc
+  - execute nvm use before running the application
+  - we can also autoload this (make a google search if needed)
+- Add eslint configuration
