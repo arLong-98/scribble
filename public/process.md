@@ -24,3 +24,7 @@
   - execute nvm use before running the application
   - we can also autoload this (make a google search if needed)
 - Add eslint configuration
+- Add typescript
+  - pnpm add -D typescript ts-loader
+  - add a tsconfig
+  - update webpack config to make webpack work with typescript, update entry file
